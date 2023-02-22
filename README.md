@@ -8,11 +8,35 @@ The questions in this repository are divided into several categories, including 
 
 We encourage the community to contribute to this repository by adding new questions or updating existing ones. Your contributions will help make this repository even more useful to everyone seeking to improve their knowledge of Blockchain technology.
 
-Thank you for visiting this repository, and we hope that you find it helpful in your Blockchain journey.
+Thank you for visiting this repository, and we hope that you will find it helpful in your Blockchain journey.
 
 ## Here is an example table of contents for the Blockchain Interview Question:
 
 
-# Table of Contents
+## Table of Contents
 
-## Blockchain Basics
+### Blockchain Basics
+| No. | Questions |
+| ---- | ----------- |
+| 1 | [What is Blockchain?](what-is-blockchain) |
+| 2 | [How does Blockchain work?](how-does-blockchain-work) |
+| 3 | [What are the benefits of Blockchain?](what-are-the-benefits-of-blockchain) |
+
+
+## Answer
+
+### What is Blockchain?
+Blockchain technology is a distributed ledger technology that enables secure, transparent and tamper-proof transactions. It uses cryptographic algorithms to ensure the authenticity and integrity of the data being shared among the participants in a decentralized network.
+
+Let's Understand By an Example:
+Imagine you have a notebook that you use to keep track of things like your chores or your allowance. Each time you do a chore or receive your allowance, you write it down in your notebook.
+
+Now imagine that instead of just one notebook, you have a whole bunch of notebooks that are exactly the same, and each time you make an entry in one of them, all of the other notebooks automatically update to match.
+
+That's kind of what blockchain technology is like. It's a way to keep track of things like transactions, but instead of just one ledger, there are many identical ledgers that are all updated at the same time.
+
+And the really cool thing about blockchain is that it uses special codes and math to make sure that the information in the ledgers is always accurate and can't be changed without everyone else knowing. That means it's really secure and people can trust that the information is true.
+
+So, in short, blockchain is a way to keep track of things that's very secure and trustworthy, because lots of people are keeping track of the same thing at the same time and can all check to make sure the information is correct.
+
+  **[⬆ Back to Top](#table-of-contents)**
