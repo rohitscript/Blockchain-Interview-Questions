@@ -18,25 +18,36 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 ### Blockchain Basics
 | No. | Questions |
 | ---- | ----------- |
-| 1 | [What is Blockchain?](what-is-blockchain) |
-| 2 | [How does Blockchain work?](how-does-blockchain-work) |
-| 3 | [What are the benefits of Blockchain?](what-are-the-benefits-of-blockchain) |
+| 1 | [What is Blockchain?](#what-is-blockchain) |
+| 2 | [How does Blockchain work?](#how-does-blockchain-work) |
+| 3 | [What are the benefits of Blockchain?](#what-are-the-benefits-of-blockchain) |
 
 
-## Answer
+## Answers
 
-### What is Blockchain?
-Blockchain technology is a distributed ledger technology that enables secure, transparent and tamper-proof transactions. It uses cryptographic algorithms to ensure the authenticity and integrity of the data being shared among the participants in a decentralized network.
+1. ### What is Blockchain?
+    Blockchain technology is a distributed ledger technology that enables secure, transparent and tamper-proof transactions. It uses cryptographic algorithms to ensure the authenticity and integrity of the data being shared among the participants in a decentralized network.
 
-Let's Understand By an Example:
-Imagine you have a notebook that you use to keep track of things like your chores or your allowance. Each time you do a chore or receive your allowance, you write it down in your notebook.
+    **Let's Understand By an Example:**
 
-Now imagine that instead of just one notebook, you have a whole bunch of notebooks that are exactly the same, and each time you make an entry in one of them, all of the other notebooks automatically update to match.
+    Imagine you have a notebook that you use to keep track of things like your chores or your allowance. Each time you do a chore or receive your allowance, you write it down in your notebook.
 
-That's kind of what blockchain technology is like. It's a way to keep track of things like transactions, but instead of just one ledger, there are many identical ledgers that are all updated at the same time.
+    Now imagine that instead of just one notebook, you have a whole bunch of notebooks that are exactly the same, and each time you make an entry in one of them, all of the other notebooks automatically update to match.
 
-And the really cool thing about blockchain is that it uses special codes and math to make sure that the information in the ledgers is always accurate and can't be changed without everyone else knowing. That means it's really secure and people can trust that the information is true.
+    That's kind of what blockchain technology is like. It's a way to keep track of things like transactions, but instead of just one ledger, there are many identical ledgers that are all updated at the same time.
 
-So, in short, blockchain is a way to keep track of things that's very secure and trustworthy, because lots of people are keeping track of the same thing at the same time and can all check to make sure the information is correct.
+    And the really cool thing about blockchain is that it uses special codes and math to make sure that the information in the ledgers is always accurate and can't be changed without everyone else knowing. That means it's really secure and people can trust that the information is true.
+
+    So, in short, blockchain is a way to keep track of things that's very secure and trustworthy, because lots of people are keeping track of the same thing at the same time and can all check to make sure the information is correct.
 
   **[⬆ Back to Top](#table-of-contents)**
+
+2. ### How does Blockchain work?
+   Blockchain is a technology that keeps a record of transactions in a secure and unchangeable way. It works by creating a series of blocks that hold transaction information. Each block contains a code that links it to the block before it, making sure that the data cannot be changed. The transactions are confirmed and added to the blockchain by a group of people who agree on them. This makes sure that the data is accurate and can be trusted.
+
+   **[⬆ Back to Top](#table-of-contents)**
+
+3. ### What are the benefits of Blockchain?
+   The benefits of blockchain include increased security, transparency, and efficiency in transactions. It can help reduce the need for intermediaries and reduce transaction costs. It also enables better tracking and tracing of goods, which can help increase trust and reduce fraud
+
+   **[⬆ Back to Top](#table-of-contents)**
