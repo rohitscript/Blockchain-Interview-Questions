@@ -18,9 +18,18 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 ### Blockchain Basics
 | No. | Questions |
 | ---- | ----------- |
-| 1 | [What is Blockchain?](#what-is-blockchain) |
-| 2 | [How does Blockchain work?](#how-does-blockchain-work) |
-| 3 | [What are the benefits of Blockchain?](#what-are-the-benefits-of-blockchain) |
+| 01 | [What is Blockchain?](#what-is-blockchain) |
+| 02 | [How does Blockchain work?](#how-does-blockchain-work) |
+| 03 | [What are the benefits of Blockchain?](#what-are-the-benefits-of-blockchain) |
+| 04| [What is a blockchain ledger?](#What-is-a-blockchain-ledger) |
+| 05| [What is a block in blockchain?](#What-is-a-block-in-blockchain) |
+| 06| [What is a node in blockchain?](#What-is-a-node-in-blockchain) |
+| 07| [What is a hash in blockchain?](#What-is-a-hash-in-blockchain) |
+| 08| [What is a consensus mechanism in blockchain?](#What-is-a-consensus-mechanism-in-blockchain?) |
+| 09| [What is a Genesis Block?](#What-is-a-genesis-block) |
+| 10| [What are the different types of Blockchains?](#what-are-the-different-types-of-blockchain) |
+
+
 
 
 ## Answers
