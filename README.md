@@ -49,7 +49,7 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 
     So, in short, blockchain is a way to keep track of things that's very secure and trustworthy, because lots of people are keeping track of the same thing at the same time and can all check to make sure the information is correct.
 
-  **[⬆ Back to Top](#table-of-contents)**
+   **[⬆ Back to Top](#table-of-contents)**
 
 2. ### How does Blockchain work?
    Blockchain is a technology that keeps a record of transactions in a secure and unchangeable way. It works by creating a series of blocks that hold transaction information. Each block contains a code that links it to the block before it, making sure that the data cannot be changed. The transactions are confirmed and added to the blockchain by a group of people who agree on them. This makes sure that the data is accurate and can be trusted.
