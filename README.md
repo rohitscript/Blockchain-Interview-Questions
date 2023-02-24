@@ -28,7 +28,8 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 08| [What is a consensus mechanism in blockchain?](#What-is-a-consensus-mechanism-in-blockchain?) |
 | 09| [What is a Genesis Block?](#What-is-a-genesis-block) |
 | 10| [What are the different types of Blockchains?](#what-are-the-different-types-of-blockchain) |
-| 11| [what are off-chain transactions?](#what-are-off-chain-transactions) |
+| 11| [What are off-chain transactions?](#what-are-off-chain-transactions) |
+| 12| [What is 51% attack? ](#what-are-51-percentage-attack) |
 
 
 
@@ -105,5 +106,11 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 
 11. ### What are off-chain transactions?
      An off-chain transaction is the movement of value outside of the blockchain. While an on-chain transaction – usually referred to as simply ‘a transaction’ – modifies the blockchain and depends on the blockchain to determine its validity an off-chain transaction relies on other methods to record and validate the transaction.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+
+12. ### What is 51% attack? 
+     51% Attack refers to a situation where a group of miners who hold more than 50% of the Network Hash Rate could manipulate with the New transactions (Stopping the transactions to proceed or gaining conformations) or able to reverse the transactions that were recently confirmed and kind of doing Double spend. It is Highly unlikely to be able to do that today but it is possible.
 
 **[⬆ Back to Top](#table-of-contents)**
