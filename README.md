@@ -25,7 +25,7 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 05| [What is a block in blockchain?](#What-is-a-block-in-blockchain) |
 | 06| [What is a node in blockchain?](#What-is-a-node-in-blockchain) |
 | 07| [What is a hash in blockchain?](#What-is-a-hash-in-blockchain) |
-| 08| [What is a consensus mechanism in blockchain?](#What-is-a-consensus-mechanism-in-blockchain?) |
+| 08| [What is a consensus mechanism in blockchain?](#What-is-a-consensus-mechanism-in-blockchain) |
 | 09| [What is a Genesis Block?](#What-is-a-genesis-block) |
 | 10| [What are the different types of Blockchains?](#what-are-the-different-types-of-blockchain) |
 | 11| [What are off-chain transactions?](#what-are-off-chain-transactions) |
