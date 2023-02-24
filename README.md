@@ -28,6 +28,7 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 08| [What is a consensus mechanism in blockchain?](#What-is-a-consensus-mechanism-in-blockchain?) |
 | 09| [What is a Genesis Block?](#What-is-a-genesis-block) |
 | 10| [What are the different types of Blockchains?](#what-are-the-different-types-of-blockchain) |
+| 11| [what are off-chain transactions?](#what-are-off-chain-transactions) |
 
 
 
@@ -99,3 +100,10 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
      1. Public Blockchains: These are fully decentralized blockchains that are open to anyone to join and participate in. Anyone can create a new block, validate transactions, and earn rewards. Examples of public blockchains include Bitcoin, Ethereum, and Litecoin.
      2. Private Blockchains: These blockchains are controlled by a single organization or group and are not open to the public. Participants in the network are known and trusted, and access to the blockchain is restricted. Private blockchains are often used by companies or organizations to store sensitive data or conduct internal transactions.
      3. Consortium or Federated Blockchains: These are blockchains that are controlled by a group of organizations, rather than a single entity. Consortium blockchains are typically used for business applications where multiple organizations need to share data and collaborate on a common platform. Examples of consortium blockchains include R3 Corda and Hyperledger Fabric.
+     
+**[⬆ Back to Top](#table-of-contents)** 
+
+11. ### What are off-chain transactions?
+     An off-chain transaction is the movement of value outside of the blockchain. While an on-chain transaction – usually referred to as simply ‘a transaction’ – modifies the blockchain and depends on the blockchain to determine its validity an off-chain transaction relies on other methods to record and validate the transaction.
+
+**[⬆ Back to Top](#table-of-contents)**
