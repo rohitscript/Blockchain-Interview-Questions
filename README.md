@@ -27,9 +27,16 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 07| [What is a hash in blockchain?](#What-is-a-hash-in-blockchain) |
 | 08| [What is a consensus mechanism in blockchain?](#What-is-a-consensus-mechanism-in-blockchain) |
 | 09| [What is a Genesis Block?](#What-is-a-genesis-block) |
-| 10| [What are the different types of Blockchains?](#what-are-the-different-types-of-blockchain) |
+| 10| [What are the different types of Blockchains?](#what-are-the-different-types-of-blockchains) |
 | 11| [What are off-chain transactions?](#what-are-off-chain-transactions) |
 | 12| [What is 51% attack? ](#what-is-51%-attack) |
+| 13| [What is a token? ](#what-is-a-token) |
+| 14| [What is a cryptocurrency? ](#what-is-a-cryptocurrency) |
+| 15| [What is a wallet? ](#what-is-a-wallet) |
+| 16| [What is a hash function? ](#what-is-a-hash-function) |
+| 17| [What is cryptography? ](#what-is-cryptography) |
+| 18| [What is Bitcoin? ](#what-is-bitcoin) |
+| 19| [What is Ethereum? ](#what-is-ethereum) |
 
 
 
@@ -114,3 +121,39 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
      51% Attack refers to a situation where a group of miners who hold more than 50% of the Network Hash Rate could manipulate with the New transactions (Stopping the transactions to proceed or gaining conformations) or able to reverse the transactions that were recently confirmed and kind of doing Double spend. It is Highly unlikely to be able to do that today but it is possible.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+13. ### What is a token?
+    A token is a digital asset that is issued and managed on a blockchain. It can represent a variety of assets, such as a currency, a commodity, or a utility.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+14. ### What is a cryptocurrency?
+    A cryptocurrency is a digital or virtual currency that uses cryptography to secure and verify transactions and to control the creation of new units. Bitcoin is the first and most well-known cryptocurrency, but there are now thousands of others in existence.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+15. ### What is a wallet?
+    A wallet is a software program that is used to store, manage, and transfer digital assets on a blockchain. It can be used to send and receive assets, view transaction history, and manage private keys.
+
+   **[⬆ Back to Top](#table-of-contents)**
+
+16. ### What is a hash function?
+    A hash function is a mathematical algorithm that takes input data of any size and produces a fixed-size output, called a hash or a digest. Hash functions are an essential component of blockchain technology, used to ensure the integrity and immutability of the data stored on the blockchain.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+17. ### What is cryptography?
+    Cryptography is the practice of securing communication and data storage against unauthorized access and manipulation. It involves using mathematical algorithms to encrypt data, making it unreadable to anyone without the appropriate decryption key.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+18. ### What is Bitcoin?
+    Bitcoin is the world's first decentralized digital currency and payment system that operates on a peer-to-peer network, without the need for intermediaries like banks or governments. It was created in 2009 by an unknown person or group using the pseudonym Satoshi Nakamoto. Bitcoin transactions are recorded on a public ledger called the blockchain, which is maintained by a network of nodes around the world. Bitcoin has a limited supply of 21 million coins, which are created through a process called mining.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+19. ### What is Ethereum?
+    Ethereum is a computer platform that allows developers to create programs and apps that run on a decentralized network. It has its own digital currency called Ether that is used to pay for transactions and reward the people who help keep the network running. It allows for more complex transactions than Bitcoin and can be used for things like creating digital contracts and voting systems.
+    Ethereum also has its own programming language called Solidity, which is used to create smart contracts and dapps. Unlike Bitcoin, Ethereum has no fixed supply limit.
+
+      **[⬆ Back to Top](#table-of-contents)**
