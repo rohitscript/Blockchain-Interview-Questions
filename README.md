@@ -37,6 +37,7 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 17| [What is cryptography? ](#what-is-cryptography) |
 | 18| [What is Bitcoin? ](#what-is-bitcoin) |
 | 19| [What is Ethereum? ](#what-is-ethereum) |
+| 20| [What is IPFS?](#what-is-ipfs) |
 
 
 
@@ -155,5 +156,12 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 19. ### What is Ethereum?
     Ethereum is a computer platform that allows developers to create programs and apps that run on a decentralized network. It has its own digital currency called Ether that is used to pay for transactions and reward the people who help keep the network running. It allows for more complex transactions than Bitcoin and can be used for things like creating digital contracts and voting systems.
     Ethereum also has its own programming language called Solidity, which is used to create smart contracts and dapps. Unlike Bitcoin, Ethereum has no fixed supply limit.
+
+      **[⬆ Back to Top](#table-of-contents)**
+
+20. ### What is IPFS?
+    IPFS (InterPlanetary File System) is a distributed file system that provides a decentralized method of storing and accessing files on the internet. It was created to address some of the limitations of traditional centralized file storage systems, such as slow download speeds, high bandwidth costs, and the risk of data loss or censorship.
+
+    At a high level, IPFS works by breaking files into small chunks and distributing them across a network of computers, called nodes, that store and share the data with each other. When a user wants to access a file, they use its unique content-addressed hash to retrieve the chunks of the file from multiple nodes on the network, reassembling the file in their own local storage.
 
       **[⬆ Back to Top](#table-of-contents)**
