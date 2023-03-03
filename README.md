@@ -1,4 +1,4 @@
-# Blockchain-Interview-Questions
+# Blockchain Interview Questions
 
 Welcome to our Github repository that contains a comprehensive list of Blockchain interview questions for both beginners and advanced users. Blockchain technology has gained immense popularity over the past few years, and it's increasingly being used in various industries, including finance, healthcare, and supply chain management.
 
