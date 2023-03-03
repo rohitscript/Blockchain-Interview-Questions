@@ -39,6 +39,17 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 19  | [What is Ethereum? ](#what-is-ethereum)                                                      |
 | 20  | [What is IPFS?](#what-is-ipfs)                                                               |
 
+
+### Solidity
+
+| No. | Questions                                                                                                                                                                                |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01  | [What is Solidity?](#what-is-solidity)                                                                                                                                                   |
+| 02  | [What is the purpose of the "pragma solidity" statement at the beginning of a Solidity file?](#what-is-the-purpose-of-the-pragma-solidity-statement-at-the-beginning-of-a-solidity-file) |
+| 03  | [What is the difference between a uint and an int in Solidity?](#what-is-the-difference-between-a-uint-and-an-int-in-solidity)                                                           |
+|04|[Can a Solidity variable change its data type?](#can-a-solidity-variable-change-its-data-type)|
+|05|[Can a Solidity variable be assigned a default value?](#can-a-solidity-variable-be-assigned-a-default-value)|
+
 ## Answers
 
 1. ### What is Blockchain?
@@ -180,20 +191,11 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 
     **[⬆ Back to Top](#table-of-contents)**
 
-## Solidity
-
-| No. | Questions                                                                                                                                                                                |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01  | [What is Solidity?](#what-is-solidity)                                                                                                                                                   |
-| 02  | [What is the purpose of the "pragma solidity" statement at the beginning of a Solidity file?](#what-is-the-purpose-of-the-pragma-solidity-statement-at-the-beginning-of-a-solidity-file) |
-| 03  | [What is the difference between a uint and an int in Solidity?](#what-is-the-difference-between-a-uint-and-an-int-in-solidity)                                                           |
-|04|[Can a Solidity variable change its data type?](#can-a-solidity-variable-change-its-data-type)|
-|05|[Can a Solidity variable be assigned a default value?](#can-a-solidity-variable-be-assigned-a-default-value)|
 
 
 
 
-## Answers
+## Solidity Answers
 
 1. ### What is a Solidity?
 
