@@ -50,6 +50,7 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 |04|[Can a Solidity variable change its data type?](#can-a-solidity-variable-change-its-data-type)|
 |05|[Can a Solidity variable be assigned a default value?](#can-a-solidity-variable-be-assigned-a-default-value)|
 
+
 ## Answers
 
 1. ### What is Blockchain?
@@ -197,7 +198,7 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 
 ## Solidity Answers
 
-1. ### What is a Solidity?
+1. ### What is Solidity?
 
    Solidity is a programming language used to write smart contracts on the Ethereum blockchain. Smart contracts are self-executing contracts with terms of agreement between buyer and seller directly written into code. Solidity is similar to other programming languages like JavaScript and C++, but has specific features for blockchain development such as the ability to interact with the Ethereum Virtual Machine (EVM) and manage digital assets like cryptocurrencies.
 
