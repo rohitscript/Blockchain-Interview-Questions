@@ -49,7 +49,8 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 03  | [What is the difference between a uint and an int in Solidity?](#what-is-the-difference-between-a-uint-and-an-int-in-solidity)                                                           |
 |04|[Can a Solidity variable change its data type?](#can-a-solidity-variable-change-its-data-type)|
 |05|[Can a Solidity variable be assigned a default value?](#can-a-solidity-variable-be-assigned-a-default-value)|
-
+|06|[What is the data type for storing Ethereum addresses in Solidity?](#what-is-the-data-type-for-storing-ethereum-addresses-in-solidity)|
+|07|[What is a constructor in Solidity and how to use it?](#what-is-a-constructor-in-solidity-and-how-to-use-it)|
 
 ## Answers
 
@@ -223,5 +224,27 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 
 5. ### Can a Solidity variable be assigned a default value?
    Yes, variables in Solidity can be assigned default values when they are declared. For example: ```uint myNumber = 0;```
+
+   **[⬆ Back to Top](#solidity)**
+
+6. ### What is the data type for storing Ethereum addresses in Solidity?
+   The data type for storing Ethereum addresses in Solidity is address.
+
+   **[⬆ Back to Top](#solidity)**
+
+7. ### What is a constructor in Solidity and how to use it?
+   A constructor is a function that is executed when a contract is created, and is used to initialize the contract's state variables.
+   Here is an example of a constructor in Solidity:
+   ```solidity 
+   pragma solidity ^0.8.0;
+
+   contract MyContract {
+    string public myString;
+
+    constructor(string memory _myString) {
+        myString = _myString;
+    }
+   }
+   ```
 
    **[⬆ Back to Top](#solidity)**
