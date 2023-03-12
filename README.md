@@ -38,6 +38,7 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 18  | [What is Bitcoin? ](#what-is-bitcoin)                                                        |
 | 19  | [What is Ethereum? ](#what-is-ethereum)                                                      |
 | 20  | [What is IPFS?](#what-is-ipfs)                                                               |
+| 21  | [What is a Blockchain Explorer??](#what-is-a-blockchain-explorer)                            |
 
 
 ### Solidity
@@ -193,6 +194,11 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 
     **[⬆ Back to Top](#table-of-contents)**
 
+21. ### What is a Blockchain Explorer?
+
+    A Blockchain Explorer is a piece of software that draws data from a blockchain using an API and a blockchain node, then uses a database to organize the data and present it to the user in a searchable format.
+
+    **[⬆ Back to Top](#table-of-contents)**
 
 
 
