@@ -40,7 +40,6 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 20  | [What is IPFS?](#what-is-ipfs)                                                               |
 | 21  | [What is a Blockchain Explorer??](#what-is-a-blockchain-explorer)                            |
 
-
 ### Solidity
 
 | No. | Questions                                                                                                                                                                                |
@@ -48,10 +47,12 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 01  | [What is Solidity?](#what-is-solidity)                                                                                                                                                   |
 | 02  | [What is the purpose of the "pragma solidity" statement at the beginning of a Solidity file?](#what-is-the-purpose-of-the-pragma-solidity-statement-at-the-beginning-of-a-solidity-file) |
 | 03  | [What is the difference between a uint and an int in Solidity?](#what-is-the-difference-between-a-uint-and-an-int-in-solidity)                                                           |
-|04|[Can a Solidity variable change its data type?](#can-a-solidity-variable-change-its-data-type)|
-|05|[Can a Solidity variable be assigned a default value?](#can-a-solidity-variable-be-assigned-a-default-value)|
-|06|[What is the data type for storing Ethereum addresses in Solidity?](#what-is-the-data-type-for-storing-ethereum-addresses-in-solidity)|
-|07|[What is a constructor in Solidity and how to use it?](#what-is-a-constructor-in-solidity-and-how-to-use-it)|
+| 04  | [Can a Solidity variable change its data type?](#can-a-solidity-variable-change-its-data-type)                                                                                           |
+| 05  | [Can a Solidity variable be assigned a default value?](#can-a-solidity-variable-be-assigned-a-default-value)                                                                             |
+| 06  | [What is the data type for storing Ethereum addresses in Solidity?](#what-is-the-data-type-for-storing-ethereum-addresses-in-solidity)                                                   |
+| 07  | [What is a constructor in Solidity and how to use it?](#what-is-a-constructor-in-solidity-and-how-to-use-it)                                                                             |
+| 08  | [ How do you handle errors and exceptions in Solidity?](#how-do-you-handle-errors-and-exceptions-in-solidity)                                                                            |
+| 09  | [What is a modifier in Solidity and how do you use it?](#what-is-a-modifier-in-solidity-and-how-do-you-use-it)                                                                           |
 
 ## Answers
 
@@ -200,9 +201,6 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 
     **[⬆ Back to Top](#table-of-contents)**
 
-
-
-
 ## Solidity Answers
 
 1. ### What is Solidity?
@@ -224,24 +222,29 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
    **[⬆ Back to Top](#solidity)**
 
 4. ### Can a Solidity variable change its data type?
+
    No, once a variable is declared with a data type, its data type cannot be changed.
-   
+
    **[⬆ Back to Top](#solidity)**
 
 5. ### Can a Solidity variable be assigned a default value?
-   Yes, variables in Solidity can be assigned default values when they are declared. For example: ```uint myNumber = 0;```
+
+   Yes, variables in Solidity can be assigned default values when they are declared. For example: `uint myNumber = 0;`
 
    **[⬆ Back to Top](#solidity)**
 
 6. ### What is the data type for storing Ethereum addresses in Solidity?
+
    The data type for storing Ethereum addresses in Solidity is address.
 
    **[⬆ Back to Top](#solidity)**
 
 7. ### What is a constructor in Solidity and how to use it?
+
    A constructor is a function that is executed when a contract is created, and is used to initialize the contract's state variables.
    Here is an example of a constructor in Solidity:
-   ```solidity 
+
+   ```solidity
    pragma solidity ^0.8.0;
 
    contract MyContract {
@@ -250,6 +253,50 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
     constructor(string memory _myString) {
         myString = _myString;
     }
+   }
+   ```
+
+   **[⬆ Back to Top](#solidity)**
+
+8. ### How do you handle errors and exceptions in Solidity?
+
+   In Solidity, you can use the `require` function to check conditions and throw an error if the condition is not met. If an error is thrown, the transaction will be reverted and any changes made to the state will be undone.
+
+   ```solidity
+   pragma solidity ^0.8.0;
+
+   contract MyContract {
+      uint256 public num;
+
+      function doSomething(uint256 _num) public {
+         require(_num > 5, "Number should be greater than 5");
+       num = _num;
+      }
+   }
+   ```
+
+   **[⬆ Back to Top](#solidity)**
+
+9. ### What is a modifier in Solidity and how do you use it?
+
+   A `modifier` in Solidity is a way to modify the behaviour of a function. You can use a modifier to enforce access control or add additional checks before executing a function.
+
+   ```solidity
+   contract Mycontract {
+      address public owner;
+
+      constructor()  {
+        owner = msg.sender;
+      }
+
+      modifier onlyOnwer() {
+        require(msg.sender == owner, "Only owner can call this function");
+        _;
+      }
+
+      function getBalance() public view onlyOnwer returns(uint256){
+        return address(this).balance;
+      }
    }
    ```
 
