@@ -53,6 +53,10 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 07  | [What is a constructor in Solidity and how to use it?](#what-is-a-constructor-in-solidity-and-how-to-use-it)                                                                             |
 | 08  | [ How do you handle errors and exceptions in Solidity?](#how-do-you-handle-errors-and-exceptions-in-solidity)                                                                            |
 | 09  | [What is a modifier in Solidity and how do you use it?](#what-is-a-modifier-in-solidity-and-how-do-you-use-it)                                                                           |
+| 10  | [How do you use events in Solidity and why are they useful?](#how-do-you-use-events-in-solidity-and-why-are-they-useful)                                                                           |
+
+
+
 
 ![Blockchain Answers](./images/blochain-section.png)
 
@@ -307,3 +311,30 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
    ```
 
    **[⬆ Back to Top](#solidity)**
+
+10. ### How do you use events in Solidity and why are they useful?
+    Events in Solidity allow contracts to communicate with external applications and other contracts. They are useful for notifying users of important state changes in the contract.
+    
+    Events allow logging to the Ethereum blockchain. Some use cases for events are:
+
+   - Listening for events and updating user interface
+   - A cheap form of storage
+
+   ```solidity 
+      contract Event {
+         // Event declaration
+         // Up to 3 parameters can be indexed.
+         // Indexed parameters helps you filter the logs by the indexed parameter
+          event Log(address indexed sender, string message);
+          event AnotherLog();
+
+         function test() public {
+            emit Log(msg.sender, "Hello World!");
+            emit Log(msg.sender, "Hello EVM!");
+            emit AnotherLog();
+          }
+      }
+
+   ```
+
+ **[⬆ Back to Top](#solidity)**
