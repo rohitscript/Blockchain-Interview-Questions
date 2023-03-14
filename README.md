@@ -40,7 +40,7 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 20  | [What is IPFS?](#what-is-ipfs)                                                               |
 | 21  | [What is a Blockchain Explorer??](#what-is-a-blockchain-explorer)                            |
 
-## Solidity Questions:
+## Solidity
 
 | No. | Questions                                                                                                                                                                                |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -206,7 +206,8 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 
 ![Solidity Answers](./images/solidity-section.png)
 
-## Solidity Answers
+
+### Solidity Answers
 
 1. ### What is Solidity?
 
