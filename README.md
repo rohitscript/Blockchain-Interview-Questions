@@ -40,7 +40,7 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 20  | [What is IPFS?](#what-is-ipfs)                                                               |
 | 21  | [What is a Blockchain Explorer??](#what-is-a-blockchain-explorer)                            |
 
-### Solidity
+## Solidity Questions:
 
 | No. | Questions                                                                                                                                                                                |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -54,7 +54,9 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 08  | [ How do you handle errors and exceptions in Solidity?](#how-do-you-handle-errors-and-exceptions-in-solidity)                                                                            |
 | 09  | [What is a modifier in Solidity and how do you use it?](#what-is-a-modifier-in-solidity-and-how-do-you-use-it)                                                                           |
 
-## Answers
+![Blockchain Answers](./images/blochain-section.png)
+
+## Blockchain Answers
 
 1. ### What is Blockchain?
 
@@ -200,6 +202,9 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
     A Blockchain Explorer is a piece of software that draws data from a blockchain using an API and a blockchain node, then uses a database to organize the data and present it to the user in a searchable format.
 
     **[⬆ Back to Top](#table-of-contents)**
+
+
+![Solidity Answers](./images/solidity-section.png)
 
 ## Solidity Answers
 
