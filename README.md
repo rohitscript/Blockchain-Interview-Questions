@@ -53,10 +53,9 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 | 07  | [What is a constructor in Solidity and how to use it?](#what-is-a-constructor-in-solidity-and-how-to-use-it)                                                                             |
 | 08  | [ How do you handle errors and exceptions in Solidity?](#how-do-you-handle-errors-and-exceptions-in-solidity)                                                                            |
 | 09  | [What is a modifier in Solidity and how do you use it?](#what-is-a-modifier-in-solidity-and-how-do-you-use-it)                                                                           |
-| 10  | [How do you use events in Solidity and why are they useful?](#how-do-you-use-events-in-solidity-and-why-are-they-useful)                                                                           |
-
-
-
+| 10  | [How do you use events in Solidity and why are they useful?](#how-do-you-use-events-in-solidity-and-why-are-they-useful)                                                                 |
+| 11  | [What is the difference between "memory" and "storage" in Solidity?](#what-is-the-difference-between-memory-and-storage-in-solidity)                                                     |
+| 12  | [What is an array in Solidity and how to declare it?](#what-is-an-array-in-solidity-and-how-to-declare-it)                                                                               |
 
 ![Blockchain Answers](./images/blochain-section.png)
 
@@ -207,9 +206,7 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
 
     **[⬆ Back to Top](#table-of-contents)**
 
-
 ![Solidity Answers](./images/solidity-section.png)
-
 
 ### Solidity Answers
 
@@ -313,28 +310,80 @@ Thank you for visiting this repository, and we hope that you will find it helpfu
    **[⬆ Back to Top](#solidity)**
 
 10. ### How do you use events in Solidity and why are they useful?
+
     Events in Solidity allow contracts to communicate with external applications and other contracts. They are useful for notifying users of important state changes in the contract.
-    
+
     Events allow logging to the Ethereum blockchain. Some use cases for events are:
 
-   - Listening for events and updating user interface
-   - A cheap form of storage
+- Listening for events and updating user interface
+- A cheap form of storage
 
-   ```solidity 
-      contract Event {
-         // Event declaration
-         // Up to 3 parameters can be indexed.
-         // Indexed parameters helps you filter the logs by the indexed parameter
-          event Log(address indexed sender, string message);
-          event AnotherLog();
+```solidity
+   contract Event {
+      // Event declaration
+      // Up to 3 parameters can be indexed.
+      // Indexed parameters helps you filter the logs by the indexed parameter
+       event Log(address indexed sender, string message);
+       event AnotherLog();
 
-         function test() public {
-            emit Log(msg.sender, "Hello World!");
-            emit Log(msg.sender, "Hello EVM!");
-            emit AnotherLog();
-          }
-      }
+      function test() public {
+         emit Log(msg.sender, "Hello World!");
+         emit Log(msg.sender, "Hello EVM!");
+         emit AnotherLog();
+       }
+   }
 
-   ```
+```
 
- **[⬆ Back to Top](#solidity)**
+**[⬆ Back to Top](#solidity)**
+
+11. ### What is the difference between "memory" and "storage" in Solidity?
+
+    In Solidity, `memory` and `storage` are two different types of storage used to store data.
+
+    `memory` is used to store data temporarily while a function is being executed. Data stored in memory is wiped out after the function completes execution.
+
+    `storage`, on the other hand, is used to store data persistently on the blockchain. Data stored in storage is permanently written to the blockchain and is accessible by all nodes on the network.
+
+    Here's an example of declaring a variable in `memory` and `storage`:
+
+```solidity
+contract {
+   // Declare a public variable in storage
+   uint256 public x;
+
+   function foo() public {
+      // Declare and initialize a variable in memory
+      uint256 x = 5;
+      // use variable x
+   }
+}
+
+```
+
+**[⬆ Back to Top](#solidity)**
+
+
+
+12. ### What is an array in Solidity and how to declare it?
+
+    In Solidity, an array is a collection of elements of the same data type that are stored sequentially in memory or storage. Arrays can be declared as either fixed-size or dynamic.
+
+    A fixed-size array has a predefined length that cannot be changed after initialization, while a dynamic array can change in size during runtime.
+
+    Here's an example of declaring a fixed-size and dynamic-size array:
+
+    
+
+```solidity
+contract {
+   // Declare a fixed-size array of length 5
+   uint256[5] public myArray;
+
+   // declare a dynamic array
+   uint256[] public myArray;
+}
+
+```
+
+**[⬆ Back to Top](#solidity)**
